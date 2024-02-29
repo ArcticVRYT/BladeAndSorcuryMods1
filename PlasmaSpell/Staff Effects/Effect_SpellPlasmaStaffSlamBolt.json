@@ -1,0 +1,130 @@
+{
+  "$type": "ThunderRoad.EffectData, ThunderRoad",
+  "id": "SpellPlasmaStaffSlamBottom",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "groupId": "Lightning",
+  "volumeDb": 0.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleParticle, ThunderRoad",
+      "effectLink": "Intensity",
+      "effectParticleAddress": "Bas.Particle.Spell.Lightning.StaffBolt",
+      "intensityCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "renderInLateUpdate": false,
+     "mainColorStart": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "mainColorEnd": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "secondaryColorStart": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "secondaryColorEnd": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "mainNoHdrColorStart": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "mainNoHdrColorEnd": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 1.0,
+        "g": 0.098,
+        "b": 0.118,
+        "a": 0.85
+      },
+      "localScale": {
+        "x": 0.4,
+        "y": 0.4,
+        "z": 0.4
+      },
+      "useScaleCurve": false,
+      "scaleCurve": null,
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "collisionEffectId": null,
+      "collisionLayerMask": -201,
+      "collisionMaxGroundAngle": 45.0,
+      "collisionEmitRate": 0.2,
+      "collisionMinIntensity": 0.0,
+      "collisionMaxIntensity": 1.0,
+      "collisionUseMainGradient": false,
+      "collisionUseSecondaryGradient": false,
+      "step": "Start",
+      "stepCustomId": null,
+      "platformFilter": "Windows, Android",
+      "sensitiveContent": "None",
+      "sensitiveFilterBehaviour": "Discard",
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    }
+  ]
+}

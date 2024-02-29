@@ -1,0 +1,14 @@
+{
+	"$type": "ThunderRoad.ItemData, ThunderRoad",
+	"id": "Meteorf",
+	"saveFolder": "bas",
+	"sensitiveContent": "None",
+	"sensitiveFilterBehaviour": "Discard",
+	"version": 4,
+	"modules": [{
+		"$type": "ExplodingFireballs.ExplosionModule, ExplodingFireballs",
+		"explosionRadius": 20.0,
+		"explosionForce": 5.0,
+		"explosionDamage": 2000.0
+	}]
+}

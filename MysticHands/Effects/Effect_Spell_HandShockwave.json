@@ -1,0 +1,56 @@
+{
+    "$type": "ThunderRoad.EffectData, Assembly-CSharp",
+    "id": "HandShockwave",
+    "version": 0,
+    "exludeFromBuild": false,
+    "category": "MysticHands",
+    "globalVolume": 1.0,
+    "globalMinPitch": 1.0,
+    "globalMaxPitch": 1.0,
+    "modules": [
+        {
+            "$type": "ThunderRoad.EffectModuleVfx, Assembly-CSharp",
+            "vfxAddress": "Lyneca.MysticHands.Shockwave",
+            "step": "Start"
+        },
+        {
+            "$type": "ThunderRoad.EffectModuleAudio, Assembly-CSharp",
+            "effectLink": "Intensity",
+            "audioContainerAddress": "Lyneca.MysticHands.Smash",
+            "audioMixer": "Effect",
+            "spatialBlend": 1.0,
+            "randomPitch": true,
+            "pitchEffectLink": "Intensity",
+            "pitchCurve": {
+                "keys": [
+                    {
+                        "time": 0.0,
+                        "value": 0.9,
+                        "inTangent": 0.0,
+                        "outTangent": 0.0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0,
+                        "weightedMode": "None",
+                        "tangentMode": 0
+                    },
+                    {
+                        "time": 1,
+                        "value": 1.1,
+                        "inTangent": 0.0,
+                        "outTangent": 0.0,
+                        "inWeight": 0.0,
+                        "outWeight": 0.0,
+                        "weightedMode": "None",
+                        "tangentMode": 0
+                    }
+                ],
+                "length": 2,
+                "preWrapMode": "ClampForever",
+                "postWrapMode": "ClampForever"
+            },
+            "minDistance": 1.0,
+            "maxDistance": 500.0,
+            "step": "Start"
+        }
+    ]
+}

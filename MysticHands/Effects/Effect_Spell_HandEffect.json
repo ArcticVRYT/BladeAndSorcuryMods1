@@ -1,0 +1,19 @@
+{
+  "$type": "ThunderRoad.EffectData, Assembly-CSharp",
+  "id": "HandEffect",
+  "version": 0,
+  "exludeFromBuild": false,
+  "category": "HandEffect",
+  "globalVolume": 1.0,
+  "globalMinPitch": 1.0,
+  "globalMaxPitch": 1.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleVfx, Assembly-CSharp",
+      "vfxAddress": "Lyneca.MysticHands.HandEffect",
+      "effectLink": "Intensity",
+      "lifeTime": 5.0,
+      "step": "Loop"
+    }
+  ]
+}

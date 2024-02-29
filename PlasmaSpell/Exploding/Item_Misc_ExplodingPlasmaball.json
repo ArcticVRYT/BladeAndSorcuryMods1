@@ -1,0 +1,23 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "ExplodingPlasmaball",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 4,
+  "modules": [
+    {
+      "$type": "ExplodingFireballs.ExplosionModule, ExplodingFireballs",
+      "explosionRadius": 1.3,
+      "explosionForce": 17.0,
+      "explosionDamage": 1000.0,
+      "explosionEffectId": "PlasmaBallExplosion",
+      "explosionEffectAutoScaling": true,
+      "explosionEffectScale": {
+        "x": 0.10,
+        "y": 0.10,
+        "z": 0.10
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "$type": "ThunderRoad.EffectData, ThunderRoad",
+  "id": "SpellPlasmaball",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "groupId": "Lightning",
+  "volumeDb": 0.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleParticle, ThunderRoad",
+      "effectLink": "Intensity",
+      "effectParticleAddress": "Bas.Particle.Spell.Lightning.ImbueBlade",
+      "intensityCurve": null,
+      "renderInLateUpdate": true,
+      "mainColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "mainColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "mainNoHdrColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "mainNoHdrColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "localScale": {
+        "x": 4.0,
+        "y": 4.0,
+        "z": 4.0
+      },
+      "useScaleCurve": false,
+      "scaleCurve": null,
+      "localRotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "collisionEffectId": null,
+      "collisionLayerMask": -2097353,
+      "collisionMaxGroundAngle": 45.0,
+      "collisionEmitRate": 0.2,
+      "collisionMinIntensity": 0.0,
+      "collisionMaxIntensity": 1.0,
+      "collisionUseMainGradient": false,
+      "collisionUseSecondaryGradient": false,
+      "step": "Loop",
+      "stepCustomId": null,
+      "platformFilter": "Windows, Android",
+      "sensitiveContent": "None",
+      "sensitiveFilterBehaviour": "Discard",
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    },
+    {
+      "$type": "ThunderRoad.EffectModuleShader, ThunderRoad",
+      "linkBaseColor": "None",
+      "linkEmissionColor": "Main",
+      "lifeTime": 5.0,
+      "refreshSpeed": 0.1,
+      "useSecondaryRenderer": true,
+      "mainColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "mainColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "mainNoHdrColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "mainNoHdrColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorStart": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "secondaryNoHdrColorEnd": {
+        "r": 5.0,
+        "g": 3.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "step": "Loop",
+      "stepCustomId": null,
+      "platformFilter": "Windows, Android",
+      "sensitiveContent": "None",
+      "sensitiveFilterBehaviour": "Discard",
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": [],
+      "intensityCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 0.0,
+            "inTangent": 0.0,
+            "outTangent": 1.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 0
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 1.0,
+            "inTangent": 1.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 0
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      }
+    }
+  ]
+}

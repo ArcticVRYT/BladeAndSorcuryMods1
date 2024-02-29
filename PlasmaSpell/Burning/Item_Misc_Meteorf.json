@@ -1,0 +1,16 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "Meteorf",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 4,
+  "modules": [
+    {
+      "$type": "ExplodingFireballs.BurnModule, ExplodingFireballs",
+      "burnDamagePerSecond": 66.0,
+      "burnDuration": 10.0,
+      "burnEffectId": "ImbuePlasmaRagdoll"
+    }
+  ]
+}

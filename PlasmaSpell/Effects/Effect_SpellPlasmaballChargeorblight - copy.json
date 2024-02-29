@@ -1,0 +1,163 @@
+{
+  "$type": "ThunderRoad.EffectData, ThunderRoad",
+  "id": "SpellDarkPlasmaCharge",
+  "saveFolder": "bas",
+  "version": 0,
+  "groupId": "Gravity",
+  "volumeDb": -25.0,
+  "modules": [
+    {
+      "$type": "ThunderRoad.EffectModuleLight, ThunderRoad",
+      "intensityCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 0.0,
+            "inTangent": 0.1,
+            "outTangent": 0.1,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 0.1,
+            "inTangent": 0.1,
+            "outTangent": 0.1,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "intensitySmoothFactor": 10.0,
+      "rangeCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 0.0,
+            "inTangent": 1.5,
+            "outTangent": 1.5,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 1.5,
+            "inTangent": 1.5,
+            "outTangent": 1.5,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "rangeSmoothFactor": 10.0,
+      "colorStart": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1,
+        "a": 1.0
+      },
+      "colorEnd": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1,
+        "a": 1.0
+      },
+      "colorSmoothFactor": 10.0,
+      "loopFadeDelay": 0.2,
+      "flickerIntensityCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 1.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 0
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 1.5,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 0
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "flickerRateCurve": {
+        "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+        "keys": [
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 0.0,
+            "value": 10.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.0,
+            "outWeight": 0.333333343,
+            "weightedMode": "None",
+            "tangentMode": 34
+          },
+          {
+            "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+            "time": 1.0,
+            "value": 10.0,
+            "inTangent": 0.0,
+            "outTangent": 0.0,
+            "inWeight": 0.333333343,
+            "outWeight": 0.0,
+            "weightedMode": "None",
+            "tangentMode": 34
+          }
+        ],
+        "length": 2,
+        "preWrapMode": "ClampForever",
+        "postWrapMode": "ClampForever"
+      },
+      "step": "Loop",
+      "stepCustomId": null,
+      "platformFilter": "Windows",
+      "sensitiveContent": "None",
+      "sensitiveFilterBehaviour": "Discard",
+      "damagerStateFilter": "Inactive, Active",
+      "damageTypeFilter": "Energy, Blunt, Slash, Pierce",
+      "penetrationFilter": "None, Pressure, Hit",
+      "imbuesFilterLogic": "AnyExcept",
+      "imbuesFilter": [],
+      "colliderGroupFilterLogic": "AnyExcept",
+      "colliderGroupsFilter": [],
+      "damagersFilterLogic": "AnyExcept",
+      "damagersFilter": []
+    }
+  ]
+}

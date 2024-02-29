@@ -1,0 +1,24 @@
+{
+  "$type": "MultiImbue.ImbueModule, MultiImbue"
+}
+
+
+////////////////////
+DON'T COPY THIS PART
+////////////////////
+
+MAKE SURE TO ADD A COMMA BETWEEN THIS MODULE AND ANY EXISTING MODULES, LIKE SO
+
+"modules": [
+  {
+    "$type": "Yadda.Yadda, Yadda",
+    ...
+  },
+  {
+    "$type": "MultiImbue.ImbueModule, MultiImbue"
+  },
+  {
+    "$type": "Blah.Blah, Blah",
+    ...
+  }
+]

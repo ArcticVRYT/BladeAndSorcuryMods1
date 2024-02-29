@@ -1,0 +1,68 @@
+{
+  "$type": "ThunderRoad.ItemData, Assembly-CSharp",
+  "id": "MysticHandRight",
+  "saveFolder": "Bas",
+  "version": 4,
+  "localizationId": null,
+  "displayName": "Right Hand",
+  "description": null,
+  "author": "Lyneca",
+  "price": 0.0,
+  "purchasable": false,
+  "tier": 0,
+  "levelRequired": 0,
+  "isStackable": false,
+  "categoryPath": [],
+  "iconEffectId": null,
+  "iconAddress": null,
+  "prefabAddress": "Lyneca.MysticHands.HandRight",
+  "pooledCount": 0,
+  "androidPooledCount": 0,
+  "type": "Prop",
+  "slot": "",
+  "snapAudioContainerAddress": null,
+  "mass": 100.0,
+  "drag": 1.0,
+  "angularDrag": 1.0,
+  "manaRegenMultiplier": 1.0,
+  "spellChargeSpeedPlayerMultiplier": 1.0,
+  "spellChargeSpeedNPCMultiplier": 1.0,
+  "collisionMaxOverride": 0,
+  "collisionEnterOnly": true,
+  "collisionNoMinVelocityCheck": false,
+  "forceLayer": "PlayerLocomotionObject",
+  "flyFromThrow": false,
+  "flyRotationSpeed": 2.0,
+  "flyThrowAngle": 0.0,
+  "telekinesisSafeDistance": 1.0,
+  "telekinesisSpinEnabled": false,
+  "telekinesisThrowRatio": 1.0,
+  "grippable": true,
+  "customSnaps": [],
+  "modules": null,
+  "colliderGroups": [
+    {
+      "transformName": "Offset",
+      "colliderGroupId": "PropDefault"
+    }
+  ],
+  "damagers": [
+    {
+      "transformName": "Blunt",
+      "damagerID": "PropBluntHeavy"
+    }
+  ],
+  "Interactables": [],
+  "effectHinges": [],
+  "whooshs": [
+    {
+      "transformName": "Whoosh",
+      "effectId": "WhooshPropHeavy",
+      "trigger": "Always",
+      "stopOnSnap": true,
+      "minVelocity": 5.0,
+      "maxVelocity": 12.0,
+      "dampening": 0.1
+    }
+  ]
+}

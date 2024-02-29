@@ -1,0 +1,36 @@
+{
+  "username": "<#d3bc7b>Landfall",
+  "lastNameRead": 63844759290406,
+  "modSettings": {
+    "useBrowserIntegration": true,
+    "useAdvancedNpcSyncing": true,
+    "useSpaceWarMode": false,
+    "minPredictionTreshhold": 0.15
+  },
+  "hostingSettings": {
+    "pvpEnable": true,
+    "pvpDamageMultiplier": 0.2,
+    "allowMapChange": true,
+    "maxItemsPerPlayer": 250,
+    "maxCreaturesPerPlayer": 15,
+    "masterServerUrl": "amp.adamite.de",
+    "allowVoiceChat": false,
+    "baseTickRate": 10,
+    "playerTickRate": 30,
+    "useModWhitelist": false,
+    "modWhitelist": [],
+    "useModBlacklist": false,
+    "modBlacklist": [],
+    "useModRequirelist": false,
+    "modRequirelist": []
+  },
+  "inputCache": {
+    "join_address": "de-amp.adamite.de",
+    "join_port": 26950,
+    "join_password": "",
+    "host_port": 26950,
+    "host_password": "",
+    "host_max_players": 3,
+    "host_steam_friends_only": true
+  }
+}

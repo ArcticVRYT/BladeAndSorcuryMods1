@@ -1,0 +1,17 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "PlayerDefault",
+  "saveFolder": "Bas",
+  "version": 1,
+  "displayName": "",
+  "description": null,
+  "contents": [
+    {
+      "referenceID": "SpellMysticHands",
+      "reference": "Item",
+      "quantity": 1,
+      "customValues": []
+    }
+  ]
+}
+
