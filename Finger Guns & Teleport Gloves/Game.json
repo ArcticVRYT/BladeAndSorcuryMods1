@@ -1,0 +1,127 @@
+{
+  "$type": "ThunderRoad.GameData, ThunderRoad",
+  "categories": [
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Cloth Finger Guns",
+      "group": "Finger Guns",
+      "iconAddress": "Bas.Icon.armor-cloth"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Leather Finger Guns",
+      "group": "Finger Guns",
+      "iconAddress": "Bas.Icon.armor-leather"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Plate Finger Guns",
+      "group": "Finger Guns",
+      "iconAddress": "Bas.Icon.armor-plate"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Mage Finger Guns",
+      "group": "Finger Guns",
+      "iconAddress": "Bas.Icon.armor-mage"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Cloth Telegloves",
+      "group": "Telegloves",
+      "iconAddress": "Bas.Icon.armor-cloth"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Leather Telegloves",
+      "group": "Telegloves",
+      "iconAddress": "Bas.Icon.armor-leather"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Plate Telegloves",
+      "group": "Telegloves",
+      "iconAddress": "Bas.Icon.armor-plate"
+    },
+    {
+      "$type": "ThunderRoad.GameData+Category, ThunderRoad",
+      "name": "Mage Telegloves",
+      "group": "Telegloves",
+      "iconAddress": "Bas.Icon.armor-mage"
+    }
+  ],
+  "categoryGroups": [
+    {
+      "$type": "ThunderRoad.GameData+CategoryGroup, ThunderRoad",
+      "id": "Finger Guns",
+      "iconAddress": "Bas.Icon.chest-armor",
+      "useInInventory": false,
+      "displayWhenEmpty": false,
+      "inventorySortingOrder": 0,
+      "inventoryMaxSlotAmount": 0,
+      "limitInventoryMaxItemAmount": false,
+      "inventoryMaxItemAmount": 0,
+      "hoverSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": "Bas.AudioGroup.Misc.CategoryGroupHoverApparels",
+        "volumeDb": 0.0
+      },
+      "selectSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      },
+      "itemHoverSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      },
+      "itemSelectSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      },
+      "itemStoreSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      }
+    },
+    {
+      "$type": "ThunderRoad.GameData+CategoryGroup, ThunderRoad",
+      "id": "Telegloves",
+      "iconAddress": "Bas.Icon.chest-armor",
+      "useInInventory": false,
+      "displayWhenEmpty": false,
+      "inventorySortingOrder": 0,
+      "inventoryMaxSlotAmount": 0,
+      "limitInventoryMaxItemAmount": false,
+      "inventoryMaxItemAmount": 0,
+      "hoverSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": "Bas.AudioGroup.Misc.CategoryGroupHoverApparels",
+        "volumeDb": 0.0
+      },
+      "selectSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      },
+      "itemHoverSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      },
+      "itemSelectSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      },
+      "itemStoreSounds": {
+        "$type": "ThunderRoad.GameData+AudioContainerAddressAndVolume, ThunderRoad",
+        "audioContainerAddress": null,
+        "volumeDb": 0.0
+      }
+    }
+  ]
+}
